@@ -1,0 +1,77 @@
+C51 COMPILER V9.53.0.0   RETARGETIO                                                        05/02/2017 23:38:57 PAGE 1   
+
+
+C51 COMPILER V9.53.0.0, COMPILATION OF MODULE RETARGETIO
+OBJECT MODULE PLACED IN .\lib/bsp/efm8_retargetserial/retargetio.OBJ
+COMPILER INVOKED BY: Z:\Applications\Simplicity Studio.app\Contents\Eclipse\developer\toolchains\keil_8051\9.53\BIN\C51.
+                    -exe /Users/liaohu/SimplicityStudio/v4_workspace/Final project_1/lib/bsp/efm8_retargetserial/retargetio.c OMF2 SMALL DEBU
+                    -G OBJECTEXTEND ROM(LARGE) WARNINGLEVEL(2) FLOATFUZZY(3) OPTIMIZE(8,SPEED) DEFINE(DEBUG=1) INTVECTOR(0X0000) INTPROMOTE I
+                    -NCDIR(/Users/liaohu/SimplicityStudio/v4_workspace/Final project_1/inc/graphics;/Users/liaohu/SimplicityStudio/v4_workspa
+                    -ce/Final project_1/inc;/Users/liaohu/SimplicityStudio/v4_workspace/Final project_1/inc/config;/Applications/Simplicity S
+                    -tudio.app/Contents/Eclipse/developer/sdks/8051/v4.0.3//kits/common/bsp;/Applications/Simplicity Studio.app/Contents/Ecli
+                    -pse/developer/sdks/8051/v4.0.3//kits/EFM8BB3_SLSTK2022A/config;/Applications/Simplicity Studio.app/Contents/Eclipse/deve
+                    -loper/sdks/8051/v4.0.3//Device/EFM8BB3/peripheral_driver/inc;/Applications/Simplicity Studio.app/Contents/Eclipse/develo
+                    -per/sdks/8051/v4.0.3//kits/common/drivers/efm8_joystick;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/s
+                    -dks/8051/v4.0.3//kits/common/drivers/efm8_memory_lcd/inc;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/
+                    -sdks/8051/v4.0.3//kits/common/drivers/efm8_memory_lcd/inc/graphics;/Applications/Simplicity Studio.app/Contents/Eclipse/
+                    -developer/sdks/8051/v4.0.3//kits/common/drivers/efm8_memory_lcd/inc/config;/Applications/Simplicity Studio.app/Contents/
+                    -Eclipse/developer/sdks/8051/v4.0.3//Device/shared/si8051base;/Applications/Simplicity Studio.app/Contents/Eclipse/develo
+                    -per/sdks/8051/v4.0.3//Device/EFM8BB3/inc;/Applications/Simplicity Studio.app/Contents/Eclipse/developer/sdks/8051/v4.0.3
+                    -//kits/common/drivers/efm8_retargetserial) PRINT(.\lib/bsp/efm8_retargetserial/retargetio.lst) COND PAGEWIDTH(120) PAGEL
+                    -ENGTH(65) OBJECT(.\lib/bsp/efm8_retargetserial/retargetio.OBJ)
+
+line level    source
+
+   1          /////////////////////////////////////////////////////////////////////////////
+   2          // retargetio.c
+   3          /////////////////////////////////////////////////////////////////////////////
+   4          
+   5          #if defined __C51__
+   6          
+   7          extern char RETARGET_ReadChar(void);
+   8          extern char RETARGET_WriteChar(char c);
+   9          
+  10          char _getkey ()  {
+  11   1        return(RETARGET_ReadChar());
+  12   1      }
+  13          
+  14          char putchar (char c)
+  15          {
+  16   1        return(RETARGET_WriteChar(c));
+  17   1      }
+  18          
+  19          #elif defined __ICC8051__
+              
+              extern int RETARGET_ReadChar(void);
+              extern int RETARGET_WriteChar(int c);
+              
+              int getchar(void){
+                return(RETARGET_ReadChar());
+              }
+              
+              int putchar(int c)
+              {
+                return(RETARGET_WriteChar(c));
+              }
+              
+              #endif
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =      8    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+C51 COMPILER V9.53.0.0   RETARGETIO                                                        05/02/2017 23:38:57 PAGE 2   
+
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+   EDATA SIZE       =   ----    ----
+   HDATA SIZE       =   ----    ----
+   XDATA CONST SIZE =   ----    ----
+   FAR CONST SIZE   =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
