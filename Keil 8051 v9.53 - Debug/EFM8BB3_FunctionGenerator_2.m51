@@ -1,4 +1,4 @@
-LX51 LINKER/LOCATER V4.66.30.0                                                          05/02/2017  20:04:33  PAGE 1
+LX51 LINKER/LOCATER V4.66.30.0                                                          05/02/2017  23:42:27  PAGE 1
 
 
 LX51 LINKER/LOCATER V4.66.30.0, INVOKED BY:
@@ -64,7 +64,7 @@ INPUT MODULES INCLUDED:
          COMMENT TYPE 1: A51 / ASM51 Assembler
   /APPLICATIONS/SIMPLICITY STUDIO.APP/CONTENTS/ECLIPSE/DEVELOPER/TOOLCHAINS/KEIL_8051/9.53/LIB\C51S.LIB (?C?CCASE)
          COMMENT TYPE 1: A51 / ASM51 Assembler
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 2
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 2
 
 
 
@@ -129,7 +129,7 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
 0028A8H   002960H   0000B9H   BYTE   UNIT     CODE           ?PR?_RENDER_SPRITELINE?RENDER
 002961H   0029F7H   000097H   BYTE   UNIT     CODE           ?PR?SPI0_ISR?SPI_0
 0029F8H   002A83H   00008CH   BYTE   UNIT     CODE           ?C_C51STARTUP
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 3
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 3
 
 
 002A84H   002B0BH   000088H   BYTE   UNIT     CODE           ?PR?_TRANSITIONDEMOWAVEFORM?FUNCTION_GENERATOR
@@ -194,7 +194,7 @@ START     STOP      LENGTH    ALIGN  RELOC    MEMORY CLASS   SEGMENT NAME
    *DEL*:           000023H   BYTE   UNIT     CODE           ?PR?_RENDER_LINESEGMENTLINE?RENDER
    *DEL*:           000002H   BYTE   UNIT     DATA           ?DT?_RENDER_LINESEGMENTLINE?RENDER
    *DEL*:           000069H   BYTE   UNIT     CODE           ?PR?_RENDER_BYTE?RENDER
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 4
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 4
 
 
    *DEL*:           000002H   BYTE   UNIT     DATA           ?DT?_RENDER_BYTE?RENDER
@@ -259,7 +259,7 @@ TIMER3_ISR/TICK                               ----- -----  ----- -----
 *** NEW ROOT ********************************
 
 SPI0_ISR/SPI_0                                ----- -----  0027H 0027H
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 5
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 5
 
 
   +--> SPI0_TRANSFERCOMPLETECB/SPI
@@ -324,7 +324,7 @@ DAC_0_ENTER_DEFAULTMODE_FROM_RESET/INITD+     ----- -----  ----- -----
 DAC_1_ENTER_DEFAULTMODE_FROM_RESET/INITD+     ----- -----  ----- -----
 ... EVICE
 
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 6
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 6
 
 
 DACGCF_0_ENTER_DEFAULTMODE_FROM_RESET/IN+     ----- -----  ----- -----
@@ -389,7 +389,7 @@ FUNCTIONGENERATOR_MAIN/FUNCTION_GENERATO+     ----- -----  ----- -----
   +--> SYNCHFRAME/FUNCTION_GENERATOR
 
 DRAWSPLASH/FUNCTION_GENERATOR                 ----- -----  0028H 0029H
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 7
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 7
 
 
   +--> GETTICKCOUNT/TICK
@@ -454,7 +454,7 @@ DRAWSCREEN/FUNCTION_GENERATOR                 ----- -----  ----- -----
 
 DRAWSCREENWAVEFORM/FUNCTION_GENERATOR         ----- -----  0028H 0029H
   +--> _RENDER_CLRLINE/RENDER
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 8
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 8
 
 
   +--> _RENDER_SPRITELINE/RENDER
@@ -519,7 +519,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000000H   NUMBER   ---       ?C?XDATASEG
       01002A3FH   CODE     ---       ?C_START
       01000000H   CODE     NEAR LAB  ?C_STARTUP
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 9
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 9
 
 
       01000046H   CODE     ---       _BitReverse
@@ -584,7 +584,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000C3H   DATA     WORD      ADC0GT
 *SFR* 000000C4H   DATA     BYTE      ADC0GTH
 *SFR* 000000C3H   DATA     BYTE      ADC0GTL
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 10
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 10
 
 
 *SFR* 000000BEH   DATA     BYTE      ADC0H
@@ -649,7 +649,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000ABH   DATA     BYTE      CMP1MD
 *SFR* 000000AAH   DATA     BYTE      CMP1MX
 *SFR* 000000CEH   DATA     BYTE      CRC0CN0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 11
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 11
 
 
 *SFR* 00000086H   DATA     BYTE      CRC0CN1
@@ -714,7 +714,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000A8H.3 DATA     BIT       ET1
 *SFR* 000000A8H   DATA     BIT       EX0
 *SFR* 000000A8H.2 DATA     BIT       EX1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 12
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 12
 
 
 *SFR* 000000D0H.5 DATA     BIT       F0
@@ -779,7 +779,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000FDH   DATA     BYTE      P0MAT
 *SFR* 000000F1H   DATA     BYTE      P0MDIN
 *SFR* 000000A4H   DATA     BYTE      P0MDOUT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 13
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 13
 
 
 *SFR* 000000D4H   DATA     BYTE      P0SKIP
@@ -844,7 +844,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000F5H   DATA     BYTE      PCA0CPH3
 *SFR* 00000085H   DATA     BYTE      PCA0CPH4
 *SFR* 000000DEH   DATA     BYTE      PCA0CPH5
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 14
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 14
 
 
 *SFR* 000000FBH   DATA     BYTE      PCA0CPL0
@@ -909,7 +909,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 00000095H   DATA     BYTE      SBRLL1
 *SFR* 00000099H   DATA     BYTE      SBUF
 *SFR* 00000099H   DATA     BYTE      SBUF0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 15
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 15
 
 
 *SFR* 00000092H   DATA     BYTE      SBUF1
@@ -974,7 +974,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *DEL*:00000000H   CODE     ---       SPI0_readByte
 *DEL*:00000000H   CODE     ---       SPI0_reset
       010030A9H   CODE     ---       SPI0_transferCompleteCb
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 16
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 16
 
 
 *SFR* 000000A1H   DATA     BYTE      SPI0CFG
@@ -1039,7 +1039,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 *SFR* 000000CBH   DATA     BYTE      TMR2RLH
 *SFR* 000000CAH   DATA     BYTE      TMR2RLL
 *SFR* 00000094H   DATA     WORD      TMR3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 17
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 17
 
 
 *SFR* 00000091H   DATA     BYTE      TMR3CN0
@@ -1104,7 +1104,7 @@ PUBLIC SYMBOLS OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01003186H   CODE     ---       WDT_0_enter_DefaultMode_from_RESET
 *SFR* 00000097H   DATA     BYTE      WDTCN
       01001F15H   CODE     ---       windowedSineTable
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 18
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 18
 
 
 *SFR* 000000B0H.6 DATA     BIT       WR
@@ -1169,7 +1169,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000082H   SFRSYM    DATA     WORD      DP
       000000A2H   SFRSYM    DATA     BYTE      TMR4RLL
       000000ECH   SFRSYM    DATA     BYTE      PCA0CPH2
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 19
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 19
 
 
       000000F0H.1 SFRSYM    DATA     BIT       B_B1
@@ -1234,7 +1234,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000E0H.2 SFRSYM    DATA     BIT       ACC_ACC2
       000000BFH   SFRSYM    DATA     BYTE      CLU3CF
       000000E0H.3 SFRSYM    DATA     BIT       ACC_ACC3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 20
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 20
 
 
       00000081H   SFRSYM    DATA     BYTE      SP
@@ -1299,7 +1299,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000B9H   SFRSYM    DATA     BYTE      ADC0CF1
       000000C8H.1 SFRSYM    DATA     BIT       TMR2CN0_T2XCLK1
       000000C8H.3 SFRSYM    DATA     BIT       SCON1_TBX
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 21
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 21
 
 
       000000E8H.7 SFRSYM    DATA     BIT       ADC0CN0_ADEN
@@ -1364,7 +1364,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000088H.6 SFRSYM    DATA     BIT       DACGCF0_D3AMEN
       000000CAH   SFRSYM    DATA     WORD      TMR2RL
       00000084H   SFRSYM    DATA     BYTE      DAC0L
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 22
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 22
 
 
       000000BDH   SFRSYM    DATA     BYTE      ADC0L
@@ -1429,7 +1429,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000099H   SFRSYM    DATA     BYTE      CMP0CN1
       00000088H.3 SFRSYM    DATA     BIT       TCON_IE1
       000000B0H   SFRSYM    DATA     BIT       P3_B0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 23
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 23
 
 
       000000A0H.1 SFRSYM    DATA     BIT       P2_B1
@@ -1494,7 +1494,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000EFH   SFRSYM    DATA     BYTE      RSTSRC
       000000FDH   SFRSYM    DATA     BYTE      P0MAT
       000000CBH   SFRSYM    DATA     BYTE      CRC0DAT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 24
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 24
 
 
       000000C0H.7 SFRSYM    DATA     BIT       TMR5CN0_TF5H
@@ -1559,7 +1559,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A3H   SFRSYM    DATA     BYTE      SPI0DAT
       000000ADH   SFRSYM    DATA     BYTE      I2C0FCN0
       000000F8H.3 SFRSYM    DATA     BIT       SPI0CN0_NSSMD1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 25
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 25
 
 
       000000BDH   SFRSYM    DATA     WORD      ADC0
@@ -1624,7 +1624,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       010027C8H   LINE      CODE     ---       #85
       010027CBH   LINE      CODE     ---       #86
       010027CBH   LINE      CODE     ---       #88
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 26
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 26
 
 
       010027CDH   LINE      CODE     ---       #89
@@ -1689,7 +1689,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F0H.1 SFRSYM    DATA     BIT       B_B1
       000000C3H   SFRSYM    DATA     WORD      ADC0GT
       000000D2H   SFRSYM    DATA     BYTE      TMR5RLL
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 27
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 27
 
 
       000000F5H   SFRSYM    DATA     BYTE      PCA0CPH3
@@ -1754,7 +1754,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000081H   SFRSYM    DATA     BYTE      SP
       0000009DH   SFRSYM    DATA     BYTE      CMP0MD
       000000E0H.4 SFRSYM    DATA     BIT       ACC_ACC4
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 28
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 28
 
 
       000000B1H   SFRSYM    DATA     BYTE      LFO0CN
@@ -1819,7 +1819,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000E8H.7 SFRSYM    DATA     BIT       ADC0CN0_ADEN
       00000089H   SFRSYM    DATA     BYTE      TMOD
       00000088H   SFRSYM    DATA     BYTE      TCON
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 29
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 29
 
 
       00000095H   SFRSYM    DATA     BYTE      DAC2CF0
@@ -1884,7 +1884,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000BDH   SFRSYM    DATA     BYTE      ADC0L
       00000092H   SFRSYM    DATA     WORD      TMR3RL
       00000089H   SFRSYM    DATA     BYTE      DAC1L
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 30
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 30
 
 
       000000A2H   SFRSYM    DATA     WORD      TMR4RL
@@ -1949,7 +1949,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A0H.1 SFRSYM    DATA     BIT       P2_B1
       00000090H.2 SFRSYM    DATA     BIT       P1_B2
       00000080H.3 SFRSYM    DATA     BIT       P0_B3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 31
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 31
 
 
       000000C0H   SFRSYM    DATA     BYTE      SMB0CN0
@@ -2014,7 +2014,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C0H.7 SFRSYM    DATA     BIT       TMR5CN0_TF5H
       000000C0H.3 SFRSYM    DATA     BIT       TMR5CN0_T5SPLIT
       00000088H.2 SFRSYM    DATA     BIT       TCON_IT1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 32
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 32
 
 
       000000D7H   SFRSYM    DATA     BYTE      SFRSTACK
@@ -2079,7 +2079,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000BDH   SFRSYM    DATA     WORD      ADC0
       000000D8H   SFRSYM    DATA     BYTE      UART1FCN1
       000000ABH   SFRSYM    DATA     BYTE      I2C0FCN1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 33
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 33
 
 
       000000E8H   SFRSYM    DATA     BIT       CLIF0_C0FIF
@@ -2144,7 +2144,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01003095H   LINE      CODE     ---       #102
       01003098H   LINE      CODE     ---       #103
       01003098H   LINE      CODE     ---       #104
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 34
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 34
 
 
       0100309FH   LINE      CODE     ---       #105
@@ -2209,7 +2209,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C8H.6 SFRSYM    DATA     BIT       SCON1_PERR
       000000D0H.2 SFRSYM    DATA     BIT       PSW_OV
       00000086H   SFRSYM    DATA     BYTE      XOSC0CN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 35
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 35
 
 
       00000090H   SFRSYM    DATA     BYTE      P1
@@ -2274,7 +2274,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F0H.4 SFRSYM    DATA     BIT       B_B4
       000000DBH   SFRSYM    DATA     BYTE      PCA0CPM1
       000000EBH   SFRSYM    DATA     BYTE      PCA0CPL2
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 36
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 36
 
 
       000000A1H   SFRSYM    DATA     BYTE      ADC0ASCF
@@ -2339,7 +2339,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       0000009BH   SFRSYM    DATA     BYTE      SPI0FCN1
       000000C0H.2 SFRSYM    DATA     BIT       TMR5CN0_TR5
       000000D8H.3 SFRSYM    DATA     BIT       PCA0CN0_CCF3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 37
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 37
 
 
       000000A4H   SFRSYM    DATA     WORD      TMR4
@@ -2404,7 +2404,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H.1 SFRSYM    DATA     BIT       TMR4CN0_T4XCLK1
       000000A8H.3 SFRSYM    DATA     BIT       IE_ET1
       000000D4H   SFRSYM    DATA     BYTE      P0SKIP
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 38
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 38
 
 
       000000D1H   SFRSYM    DATA     BYTE      CLOUT0
@@ -2469,7 +2469,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H   SFRSYM    DATA     BYTE      DACGCF1
       000000CEH   SFRSYM    DATA     BYTE      CRC0CN0
       000000F4H   SFRSYM    DATA     WORD      PCA0CP3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 39
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 39
 
 
       0000008CH   SFRSYM    DATA     BYTE      TH0
@@ -2534,7 +2534,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A0H.4 SFRSYM    DATA     BIT       P2_B4
       00000090H.5 SFRSYM    DATA     BIT       P1_B5
       00000080H.6 SFRSYM    DATA     BIT       P0_B6
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 40
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 40
 
 
       00000098H.1 SFRSYM    DATA     BIT       DACGCF1_D1UDIS
@@ -2599,7 +2599,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000B8H.6 SFRSYM    DATA     BIT       IP_PSPI0
       000000E8H.1 SFRSYM    DATA     BIT       ADC0CN0_ADGN0
       0000009CH   SFRSYM    DATA     BYTE      PCA0CLR
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 41
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 41
 
 
       000000C0H.6 SFRSYM    DATA     BIT       TMR5CN0_TF5L
@@ -2664,7 +2664,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 
       0100311CH   BLOCK     CODE     ---       LVL=0
       00000006H   SYMBOL    DATA     ---       line
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 42
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 42
 
 
       0100311CH   BLOCK     CODE     NEAR LAB  LVL=1
@@ -2729,7 +2729,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000032H   SYMBOL    DATA     BYTE      posy
       00000033H   SYMBOL    DATA     ---       sprite
       00000035H   SYMBOL    DATA     BYTE      spriteWidth
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 43
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 43
 
 
       010028B0H   BLOCK     CODE     NEAR LAB  LVL=1
@@ -2794,7 +2794,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H   SFRSYM    DATA     BYTE      SCON
       00000089H   SFRSYM    DATA     BYTE      TMOD
       00000088H   SFRSYM    DATA     BYTE      TCON
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 44
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 44
 
 
       00000088H.1 SFRSYM    DATA     BIT       IE0
@@ -2859,7 +2859,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C8H.6 SFRSYM    DATA     BIT       SCON1_PERR
       000000D0H.2 SFRSYM    DATA     BIT       PSW_OV
       00000086H   SFRSYM    DATA     BYTE      XOSC0CN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 45
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 45
 
 
       00000090H   SFRSYM    DATA     BYTE      P1
@@ -2924,7 +2924,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F0H.4 SFRSYM    DATA     BIT       B_B4
       000000DBH   SFRSYM    DATA     BYTE      PCA0CPM1
       000000EBH   SFRSYM    DATA     BYTE      PCA0CPL2
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 46
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 46
 
 
       000000A1H   SFRSYM    DATA     BYTE      ADC0ASCF
@@ -2989,7 +2989,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       0000009BH   SFRSYM    DATA     BYTE      SPI0FCN1
       000000C0H.2 SFRSYM    DATA     BIT       TMR5CN0_TR5
       000000D8H.3 SFRSYM    DATA     BIT       PCA0CN0_CCF3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 47
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 47
 
 
       000000A4H   SFRSYM    DATA     WORD      TMR4
@@ -3054,7 +3054,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H.1 SFRSYM    DATA     BIT       TMR4CN0_T4XCLK1
       000000A8H.3 SFRSYM    DATA     BIT       IE_ET1
       000000D4H   SFRSYM    DATA     BYTE      P0SKIP
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 48
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 48
 
 
       000000D1H   SFRSYM    DATA     BYTE      CLOUT0
@@ -3119,7 +3119,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H   SFRSYM    DATA     BYTE      DACGCF1
       000000CEH   SFRSYM    DATA     BYTE      CRC0CN0
       000000F4H   SFRSYM    DATA     WORD      PCA0CP3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 49
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 49
 
 
       0000008CH   SFRSYM    DATA     BYTE      TH0
@@ -3184,7 +3184,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A0H.4 SFRSYM    DATA     BIT       P2_B4
       00000090H.5 SFRSYM    DATA     BIT       P1_B5
       00000080H.6 SFRSYM    DATA     BIT       P0_B6
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 50
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 50
 
 
       00000098H.1 SFRSYM    DATA     BIT       DACGCF1_D1UDIS
@@ -3249,7 +3249,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000B8H.6 SFRSYM    DATA     BIT       IP_PSPI0
       000000E8H.1 SFRSYM    DATA     BIT       ADC0CN0_ADGN0
       0000009CH   SFRSYM    DATA     BYTE      PCA0CLR
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 51
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 51
 
 
       000000C0H.6 SFRSYM    DATA     BIT       TMR5CN0_TF5L
@@ -3314,7 +3314,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000067H   SYMBOL    DATA     BYTE      TransferSize
 
       01002E00H   BLOCK     CODE     ---       LVL=0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 52
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 52
 
 
       0000005BH   SYMBOL    DATA     ---       buffer
@@ -3379,7 +3379,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01003069H   PUBLIC    CODE     ---       GetTickCount
       000000A2H   SFRSYM    DATA     BYTE      SPI0CKR
       00000080H   SFRSYM    DATA     BYTE      P0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 53
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 53
 
 
       000000C8H.6 SFRSYM    DATA     BIT       SCON1_PERR
@@ -3444,7 +3444,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000E9H   SFRSYM    DATA     BYTE      PCA0CPL1
       000000DEH   SFRSYM    DATA     BYTE      PCA0CPH5
       000000D8H.7 SFRSYM    DATA     BIT       UART1FCN1_TFRQ
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 54
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 54
 
 
       000000F0H.4 SFRSYM    DATA     BIT       B_B4
@@ -3509,7 +3509,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000D8H.2 SFRSYM    DATA     BIT       PCA0CN0_CCF2
       000000E0H.7 SFRSYM    DATA     BIT       ACC_ACC7
       00000094H   SFRSYM    DATA     WORD      TMR3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 55
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 55
 
 
       0000009BH   SFRSYM    DATA     BYTE      SPI0FCN1
@@ -3574,7 +3574,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H   SFRSYM    DATA     BIT       TMR4CN0_T4XCLK0
       000000A8H.1 SFRSYM    DATA     BIT       IE_ET0
       000000AAH   SFRSYM    DATA     BYTE      CMP1MX
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 56
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 56
 
 
       00000098H.1 SFRSYM    DATA     BIT       TMR4CN0_T4XCLK1
@@ -3639,7 +3639,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000088H   SFRSYM    DATA     BYTE      DACGCF0
       000000EBH   SFRSYM    DATA     WORD      PCA0CP2
       000000BCH   SFRSYM    DATA     BYTE      I2C0DIN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 57
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 57
 
 
       00000098H   SFRSYM    DATA     BYTE      DACGCF1
@@ -3704,7 +3704,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H   SFRSYM    DATA     BIT       DACGCF1_D0UDIS
       000000D8H.1 SFRSYM    DATA     BIT       UART1FCN1_RXTO0
       000000B0H.3 SFRSYM    DATA     BIT       P3_B3
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 58
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 58
 
 
       000000A0H.4 SFRSYM    DATA     BIT       P2_B4
@@ -3769,7 +3769,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000D6H   SFRSYM    DATA     BYTE      SMB0ADM
       000000C5H   SFRSYM    DATA     BYTE      ADC0LTL
       000000F8H.5 SFRSYM    DATA     BIT       SPI0CN0_MODF
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 59
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 59
 
 
       000000B8H.6 SFRSYM    DATA     BIT       IP_PSPI0
@@ -3834,7 +3834,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000B7H   SFRSYM    DATA     BYTE      FLKEY
       00000068H   SYMBOL    DATA     WORD      Ticks
 
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 60
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 60
 
 
       01003069H   BLOCK     CODE     ---       LVL=0
@@ -3899,7 +3899,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000E8H.7 SFRSYM    DATA     BIT       CLIF0_C3RIF
       000000E4H   SFRSYM    DATA     BYTE      IT01CF
       000000C0H.6 SFRSYM    DATA     BIT       SMB0CN0_TXMODE
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 61
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 61
 
 
       000000ADH   SFRSYM    DATA     BYTE      DERIVID
@@ -3964,7 +3964,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000DDH   SFRSYM    DATA     BYTE      PCA0CPL5
       000000C3H   SFRSYM    DATA     BYTE      SMB0FCN0
       000000CCH   SFRSYM    DATA     BYTE      PCA0CPM5
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 62
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 62
 
 
       000000B5H   SFRSYM    DATA     BYTE      ADC0ASAL
@@ -4029,7 +4029,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C0H.4 SFRSYM    DATA     BIT       SMB0CN0_STO
       000000F4H   SFRSYM    DATA     BYTE      P3MDIN
       000000B9H   SFRSYM    DATA     BYTE      I2C0STAT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 63
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 63
 
 
       000000BBH   SFRSYM    DATA     BYTE      I2C0DOUT
@@ -4094,7 +4094,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000D8H.6 SFRSYM    DATA     BIT       PCA0CN0_CR
       000000A8H.2 SFRSYM    DATA     BIT       IE_EX1
       00000088H.5 SFRSYM    DATA     BIT       DACGCF0_D3SRC1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 64
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 64
 
 
       00000091H   SFRSYM    DATA     BYTE      CLU2MX
@@ -4159,7 +4159,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A8H.6 SFRSYM    DATA     BIT       IE_ESPI0
       0000008BH   SFRSYM    DATA     BYTE      TL1
       000000F9H   SFRSYM    DATA     BYTE      PCA0L
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 65
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 65
 
 
       000000C0H   SFRSYM    DATA     BIT       SMB0CN0_SI
@@ -4224,7 +4224,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000088H.5 SFRSYM    DATA     BIT       TCON_TF0
       00000098H   SFRSYM    DATA     BIT       SCON0_RI
       000000D6H   SFRSYM    DATA     BYTE      HFO1CAL
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 66
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 66
 
 
       00000082H   SFRSYM    DATA     BYTE      DPL
@@ -4289,7 +4289,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H.4 SFRSYM    DATA     BIT       TMR4CN0_TF4CEN
       000000D5H   SFRSYM    DATA     BYTE      TMR5H
       000000EFH   SFRSYM    DATA     BYTE      SMB0FCT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 67
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 67
 
 
       00000096H   SFRSYM    DATA     BYTE      PCA0POL
@@ -4354,7 +4354,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000006H   SYMBOL    DATA     BYTE      ret
       00000007H   SYMBOL    DATA     BYTE      savedPage
       00000006H   SYMBOL    DATA     BYTE      ret
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 68
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 68
 
 
       00000007H   SYMBOL    DATA     BYTE      savedPage
@@ -4419,7 +4419,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01002CC9H   LINE      CODE     ---       #644
       01002CC9H   LINE      CODE     ---       #648
       01002CD0H   LINE      CODE     ---       #649
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 69
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 69
 
 
       01002CD0H   LINE      CODE     ---       #651
@@ -4484,7 +4484,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       010029D6H   LINE      CODE     ---       #812
       010029D8H   LINE      CODE     ---       #816
       010029D8H   LINE      CODE     ---       #817
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 70
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 70
 
 
       010029DBH   LINE      CODE     ---       #818
@@ -4549,7 +4549,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000A3H   SFRSYM    DATA     BYTE      TMR4RLH
       000000BBH   SFRSYM    DATA     BYTE      EIP1
       000000D3H   SFRSYM    DATA     BYTE      TMR5RLH
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 71
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 71
 
 
       000000EDH   SFRSYM    DATA     BYTE      EIP2
@@ -4614,7 +4614,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000BBH   SFRSYM    DATA     BYTE      ADC0MX
       000000E0H   SFRSYM    DATA     BIT       ACC_ACC0
       000000D1H   SFRSYM    DATA     BYTE      REF0CN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 72
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 72
 
 
       000000B3H   SFRSYM    DATA     BYTE      CLU1CF
@@ -4679,7 +4679,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000BAH   SFRSYM    DATA     BYTE      I2C0CN0
       000000D2H   SFRSYM    DATA     BYTE      CRC0ST
       000000F8H.4 SFRSYM    DATA     BIT       SPI0CN0_RXOVRN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 73
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 73
 
 
       000000D0H.4 SFRSYM    DATA     BIT       PSW_RS1
@@ -4744,7 +4744,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F0H   SFRSYM    DATA     BYTE      B
       000000BEH   SFRSYM    DATA     BYTE      ADC0H
       000000FFH   SFRSYM    DATA     BYTE      I2C0ADM
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 74
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 74
 
 
       0000008AH   SFRSYM    DATA     BYTE      DAC1H
@@ -4809,7 +4809,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C6H   SFRSYM    DATA     BYTE      CLEN0
       00000088H.1 SFRSYM    DATA     BIT       TCON_IE0
       000000A0H   SFRSYM    DATA     BIT       P2_B0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 75
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 75
 
 
       00000090H.1 SFRSYM    DATA     BIT       P1_B1
@@ -4874,7 +4874,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000098H.1 SFRSYM    DATA     BIT       SCON0_TI
       00000092H   SFRSYM    DATA     BYTE      SBUF1
       000000CDH   SFRSYM    DATA     BYTE      PCON1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 76
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 76
 
 
       000000C6H   SFRSYM    DATA     BYTE      ADC0LTH
@@ -4939,7 +4939,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F8H.2 SFRSYM    DATA     BIT       SPI0CN0_NSSMD0
       000000D0H.7 SFRSYM    DATA     BIT       PSW_CY
       0000009DH   SFRSYM    DATA     BYTE      UART1FCN0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 77
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 77
 
 
       000000DFH   SFRSYM    DATA     BYTE      SPI0PCF
@@ -5004,7 +5004,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       010030D6H   LINE      CODE     ---       #134
       010030D9H   LINE      CODE     ---       #158
       010030DCH   LINE      CODE     ---       #182
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 78
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 78
 
 
       010030DFH   LINE      CODE     ---       #206
@@ -5069,7 +5069,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       010031B5H   LINE      CODE     ---       #640
       ---         BLOCKEND  ---      ---       LVL=0
 
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 79
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 79
 
 
       010031B6H   BLOCK     CODE     ---       LVL=0
@@ -5134,7 +5134,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01000013H   LINE      CODE     ---       #839
       01000016H   LINE      CODE     ---       #846
       01000019H   LINE      CODE     ---       #849
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 80
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 80
 
 
       0100001FH   LINE      CODE     ---       #854
@@ -5199,7 +5199,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000000H   SYMBOL    NUMBER   ---       XDATALEN
       00000000H   SYMBOL    NUMBER   ---       XDATASTART
 
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 81
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 81
 
 
       01000000H   BLOCK     CODE     NEAR LAB  LVL=0
@@ -5264,7 +5264,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000BBH   SFRSYM    DATA     BYTE      EIP1
       000000D3H   SFRSYM    DATA     BYTE      TMR5RLH
       000000EDH   SFRSYM    DATA     BYTE      EIP2
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 82
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 82
 
 
       00000098H.2 SFRSYM    DATA     BIT       SCON0_RB8
@@ -5329,7 +5329,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000E0H   SFRSYM    DATA     BIT       ACC_ACC0
       000000D1H   SFRSYM    DATA     BYTE      REF0CN
       000000B3H   SFRSYM    DATA     BYTE      CLU1CF
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 83
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 83
 
 
       0000008EH   SFRSYM    DATA     BYTE      CKCON0
@@ -5394,7 +5394,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000D2H   SFRSYM    DATA     BYTE      CRC0ST
       000000F8H.4 SFRSYM    DATA     BIT       SPI0CN0_RXOVRN
       000000D0H.4 SFRSYM    DATA     BIT       PSW_RS1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 84
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 84
 
 
       00000095H   SFRSYM    DATA     BYTE      SBRLL1
@@ -5459,7 +5459,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F8H   SFRSYM    DATA     BIT       SPI0CN0_SPIEN
       00000085H   SFRSYM    DATA     BYTE      DAC0H
       000000F0H   SFRSYM    DATA     BYTE      B
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 85
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 85
 
 
       000000BEH   SFRSYM    DATA     BYTE      ADC0H
@@ -5524,7 +5524,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000B8H.2 SFRSYM    DATA     BIT       IP_PX1
       00000088H.7 SFRSYM    DATA     BIT       DACGCF0_D23REFSL
       0000009EH   SFRSYM    DATA     BYTE      UART1LIN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 86
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 86
 
 
       0000009BH   SFRSYM    DATA     BYTE      CMP0CN0
@@ -5589,7 +5589,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000C3H   SFRSYM    DATA     BYTE      ADC0GTL
       00000098H.7 SFRSYM    DATA     BIT       TMR4CN0_TF4H
       00000098H.3 SFRSYM    DATA     BIT       TMR4CN0_T4SPLIT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 87
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 87
 
 
       000000C8H.6 SFRSYM    DATA     BIT       TMR2CN0_TF2L
@@ -5654,7 +5654,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000094H   SFRSYM    DATA     BYTE      TMR3L
       000000A8H.7 SFRSYM    DATA     BIT       IE_EA
       000000A4H   SFRSYM    DATA     BYTE      TMR4L
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 88
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 88
 
 
       000000D4H   SFRSYM    DATA     BYTE      TMR5L
@@ -5719,7 +5719,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01002A89H   LINE      CODE     ---       #112
       01002A89H   LINE      CODE     ---       #113
       01002A9BH   LINE      CODE     ---       #114
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 89
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 89
 
 
       01002A9BH   LINE      CODE     ---       #115
@@ -5784,7 +5784,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       ---         BLOCKEND  ---      ---       LVL=0
 
       01002CE4H   BLOCK     CODE     ---       LVL=0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 90
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 90
 
 
       00000007H   SYMBOL    DATA     BYTE      dir
@@ -5849,7 +5849,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
 
       0100303BH   BLOCK     CODE     ---       LVL=0
       00000007H   SYMBOL    DATA     BYTE      dir
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 91
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 91
 
 
       0100303BH   LINE      CODE     ---       #280
@@ -5914,7 +5914,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       01002B11H   LINE      CODE     ---       #353
       01002B11H   LINE      CODE     ---       #354
       01002B18H   LINE      CODE     ---       #355
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 92
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 92
 
 
       01002B2CH   LINE      CODE     ---       #357
@@ -5979,7 +5979,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       0100301DH   LINE      CODE     ---       #449
       01003021H   LINE      CODE     ---       #450
       ---         BLOCKEND  ---      ---       LVL=0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 93
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 93
 
 
 
@@ -6044,7 +6044,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F9H   SFRSYM    DATA     WORD      PCA0
       000000E6H   SFRSYM    DATA     BYTE      EIE1
       000000C0H.1 SFRSYM    DATA     BIT       SMB0CN0_ACK
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 94
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 94
 
 
       000000E8H.1 SFRSYM    DATA     BIT       CLIF0_C0RIF
@@ -6109,7 +6109,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000F4H   SFRSYM    DATA     BYTE      PCA0CPL3
       000000B8H   SFRSYM    DATA     BYTE      IP
       000000F0H.6 SFRSYM    DATA     BIT       B_B6
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 95
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 95
 
 
       000000C5H   SFRSYM    DATA     WORD      ADC0LT
@@ -6174,7 +6174,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000FFH   SFRSYM    DATA     BYTE      VDM0CN
       000000F1H   SFRSYM    DATA     BYTE      P0MDIN
       000000AFH   SFRSYM    DATA     BYTE      CLU0FN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 96
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 96
 
 
       00000098H.4 SFRSYM    DATA     BIT       SCON0_REN
@@ -6239,7 +6239,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000D5H   SFRSYM    DATA     BYTE      P1SKIP
       000000C0H.1 SFRSYM    DATA     BIT       TMR5CN0_T5XCLK1
       00000088H.1 SFRSYM    DATA     BIT       DACGCF0_D1SRC1
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 97
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 97
 
 
       000000CCH   SFRSYM    DATA     BYTE      P2SKIP
@@ -6304,7 +6304,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       0000008DH   SFRSYM    DATA     BYTE      TH1
       000000FAH   SFRSYM    DATA     BYTE      PCA0H
       000000F5H   SFRSYM    DATA     BYTE      I2C0FCT
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 98
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 98
 
 
       00000090H.6 SFRSYM    DATA     BIT       BSP_LED_R
@@ -6369,7 +6369,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       00000080H.7 SFRSYM    DATA     BIT       P0_B7
       00000098H.2 SFRSYM    DATA     BIT       DACGCF1_D2UDIS
       000000C5H   SFRSYM    DATA     BYTE      SMB0RXLN
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 99
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 99
 
 
       000000F6H   SFRSYM    DATA     BYTE      EIP2H
@@ -6434,7 +6434,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       000000FEH   SFRSYM    DATA     BYTE      TMR3CN1
       000000B0H.4 SFRSYM    DATA     BIT       BSP_DISP_EN
       000000C0H   SFRSYM    DATA     BYTE      TMR5CN0
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 100
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 100
 
 
       000000FFH   SFRSYM    DATA     BYTE      TMR4CN1
@@ -6499,7 +6499,7 @@ SYMBOL TABLE OF MODULE:  EFM8BB3_FUNCTIONGENERATOR_2.OMF.CRBUILD (JOYSTICK)
       ---         MODULE    ---      ---       ?C_INIT
       01002A3FH   PUBLIC    CODE     ---       ?C_START
 
-LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  20:04:33  PAGE 101
+LX51 LINKER/LOCATER V4.66.30.0                                                        05/02/2017  23:42:27  PAGE 101
 
 
       ---         MODULE    ---      ---       ?C?CLDPTR

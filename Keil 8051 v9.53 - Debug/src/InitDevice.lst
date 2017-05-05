@@ -1,4 +1,4 @@
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 1   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 1   
 
 
 C51 COMPILER V9.53.0.0, COMPILATION OF MODULE INITDEVICE
@@ -63,7 +63,7 @@ line level    source
   40   1              TIMER16_3_enter_DefaultMode_from_RESET();
   41   1              TIMER16_4_enter_DefaultMode_from_RESET();
   42   1              TIMER_SETUP_0_enter_DefaultMode_from_RESET();
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 2   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 2   
 
   43   1              SPI_0_enter_DefaultMode_from_RESET();
   44   1              UART_0_enter_DefaultMode_from_RESET();
@@ -128,7 +128,7 @@ line level    source
  103   1              // [P0MDIN - Port 0 Input Mode]$
  104   1      
  105   1              // $[P0SKIP - Port 0 Skip]
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 3   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 3   
 
  106   1              /***********************************************************************
  107   1               - P0.0 pin is skipped by the crossbar
@@ -193,7 +193,7 @@ line level    source
  166   1               ***********************************************************************/
  167   1              P1MDOUT = P1MDOUT_B0__PUSH_PULL | P1MDOUT_B1__OPEN_DRAIN
  168   1                              | P1MDOUT_B2__OPEN_DRAIN | P1MDOUT_B3__OPEN_DRAIN
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 4   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 4   
 
  169   1                              | P1MDOUT_B4__PUSH_PULL | P1MDOUT_B5__PUSH_PULL
  170   1                              | P1MDOUT_B6__PUSH_PULL | P1MDOUT_B7__OPEN_DRAIN;
@@ -258,7 +258,7 @@ line level    source
  229   1               - P2.6 output is push-pull
  230   1               ***********************************************************************/
  231   1              P2MDOUT = P2MDOUT_B0__PUSH_PULL | P2MDOUT_B1__OPEN_DRAIN
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 5   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 5   
 
  232   1                              | P2MDOUT_B2__OPEN_DRAIN | P2MDOUT_B3__PUSH_PULL
  233   1                              | P2MDOUT_B4__OPEN_DRAIN | P2MDOUT_B5__OPEN_DRAIN
@@ -323,7 +323,7 @@ line level    source
  292   1               - Crossbar enabled
  293   1               - UART1 I/O unavailable at Port pin
  294   1               - UART1 RTS1 unavailable at Port pin
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 6   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 6   
 
  295   1               - UART1 CTS1 unavailable at Port pin
  296   1               ***********************************************************************/
@@ -388,7 +388,7 @@ line level    source
  355   1               - Select ADC0.13
  356   1               ***********************************************************************/
  357   1              ADC0MX = ADC0MX_ADC0MX__ADC0P13;
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 7   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 7   
 
  358   1              // [ADC0MX - ADC0 Multiplexer Selection]$
  359   1      
@@ -453,7 +453,7 @@ line level    source
  418   1              /***********************************************************************
  419   1               - DAC0 is enabled and will drive the output pin
  420   1               - DAC0 output updates occur on Timer 4 high byte overflow
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 8   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 8   
 
  421   1               - DAC0 input is treated as right-justified
  422   1               - All resets will reset DAC0 and its associated registers
@@ -518,7 +518,7 @@ line level    source
  481   1              // $[REF0CN - Voltage Reference Control]
  482   1              /***********************************************************************
  483   1               - 2.4 V reference output to VREF pin
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 9   
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 9   
 
  484   1               ***********************************************************************/
  485   1              SFRPAGE = 0x00;
@@ -583,7 +583,7 @@ line level    source
  544   1              //Restore Timer Configuration
  545   1              TCON |= (TCON_save & TCON_TR0__BMASK) | (TCON_save & TCON_TR1__BMASK);
  546   1      
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 10  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 10  
 
  547   1              // [Timer Restoration]$
  548   1      
@@ -648,7 +648,7 @@ line level    source
  607   1              // [Timer Restoration]$
  608   1      
  609   1      }
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 11  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 11  
 
  610          
  611          //================================================================================
@@ -713,7 +713,7 @@ line level    source
  670   1      
  671   1      }
  672          
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 12  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 12  
 
  673          //================================================================================
  674          // TIMER_SETUP_0_enter_DefaultMode_from_RESET
@@ -778,7 +778,7 @@ line level    source
  733          extern void SPI_0_enter_DefaultMode_from_RESET(void) {
  734   1              // $[SPI0CKR - SPI0 Clock Rate]
  735   1              /***********************************************************************
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 13  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 13  
 
  736   1               - SPI0 Clock Rate = 0x0B
  737   1               ***********************************************************************/
@@ -843,7 +843,7 @@ line level    source
  796   1              EIE2 = EIE2_CL0__DISABLED | EIE2_EI2C0__DISABLED | EIE2_ET4__ENABLED
  797   1                              | EIE2_ET5__DISABLED | EIE2_ES1__DISABLED;
  798   1              // [EIE2 - Extended Interrupt Enable 2]$
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 14  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 14  
 
  799   1      
  800   1              // $[EIP1H - Extended Interrupt Priority 1 High]
@@ -908,7 +908,7 @@ line level    source
  859          
  860          extern void UART_0_enter_DefaultMode_from_RESET(void) {
  861   1              // $[SCON0 - UART0 Serial Port Control]
-C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 14:43:04 PAGE 15  
+C51 COMPILER V9.53.0.0   INITDEVICE                                                        05/05/2017 17:46:58 PAGE 15  
 
  862   1              /***********************************************************************
  863   1               - UART0 reception enabled

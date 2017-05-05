@@ -38,8 +38,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 // Includes
 ///////////////////////////////////////////////////////////////////////////////
-#include <string.h>
-#include <stdlib.h>
+
 #include "bsp.h"
 #include "tick.h"
 #include "disp.h"
@@ -58,14 +57,14 @@
 #include "nav_right.h"
 #include "waveform_tables.h"
 #include "retargetserial.h"
-#include "InitDevice.h"
+
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
 ///////////////////////////////////////////////////////////////////////////////
 
 // Generic line buffer
 SI_SEGMENT_VARIABLE(Line[DISP_BUF_SIZE], uint8_t, RENDER_LINE_SEG);
-//SI_VARIABLE_SEGMENT_POINTER(str, char, RENDER_STR_SEG);
+
 // Demo state variables
 static DemoState currentDemoState = DEMO_SINE;
 static SI_VARIABLE_SEGMENT_POINTER(currentTable, uint16_t, const SI_SEG_CODE) = sineTable; // current waveform table for DAC output
@@ -107,7 +106,79 @@ KillSpash killSplashFlag = SHOW_SPLASH;
 //
 // dir - valid arguments are: JOYSTICK_E, JOYSTICK_W
 //
+static void transitionDemoWaveform(uint8_t dir)
+{
+  if (dir == JOYSTICK_E)
+  {
+	  switch (currentDemoState)
+	  {
+		case DEMO_SINE:
+		  currentDemoState = DEMO_SQUARE;
+		  currentWaveform = square_bits;
+		  currentTable = squareTable;
+		  break;
 
+		case DEMO_SQUARE:
+		  currentDemoState = DEMO_TRIANGLE;
+		  currentWaveform = triangle_bits;
+		  currentTable = triangleTable;
+		  break;
+
+		case DEMO_TRIANGLE:
+          currentDemoState = DEMO_SAWTOOTH;
+		  currentWaveform = sawtooth_bits;
+		  currentTable = sawtoothTable;
+		  break;
+
+		case DEMO_SAWTOOTH:
+		  currentDemoState = DEMO_WINDOWED_SINE;
+		  currentWaveform = windowed_sine_bits;
+		  currentTable = windowedSineTable;
+		  break;
+
+		case DEMO_WINDOWED_SINE:
+		  currentDemoState = DEMO_SINE;
+		  currentWaveform = sine_bits;
+		  currentTable = sineTable;
+		  break;
+	  }
+  }
+  else if (dir == JOYSTICK_W)
+  {
+	  switch (currentDemoState)
+	  {
+		case DEMO_SINE:
+		  currentDemoState = DEMO_WINDOWED_SINE;
+		  currentWaveform = windowed_sine_bits;
+		  currentTable = windowedSineTable;
+		  break;
+
+		case DEMO_SQUARE:
+		  currentDemoState = DEMO_SINE;
+		  currentWaveform = sine_bits;
+		  currentTable = sineTable;
+		  break;
+
+		case DEMO_TRIANGLE:
+		  currentDemoState = DEMO_SQUARE;
+		  currentWaveform = square_bits;
+		  currentTable = squareTable;
+		  break;
+
+		case DEMO_SAWTOOTH:
+		  currentDemoState = DEMO_TRIANGLE;
+		  currentWaveform = triangle_bits;
+		  currentTable = triangleTable;
+		  break;
+
+		case DEMO_WINDOWED_SINE:
+		  currentDemoState = DEMO_SAWTOOTH;
+		  currentWaveform = sawtooth_bits;
+		  currentTable = sawtoothTable;
+		  break;
+	  }
+  }
+}
 
 //-----------------------------------------------------------------------------
 // transitionDemoFrequency
@@ -211,7 +282,7 @@ static void processInput(uint8_t dir)
   // process input
   if ((dir == JOYSTICK_E) || (dir == JOYSTICK_W))
   {
-    //transitionDemoWaveform(dir);
+    transitionDemoWaveform(dir);
   }
   else if ((dir == JOYSTICK_N) || (dir == JOYSTICK_S))
   {
@@ -438,43 +509,32 @@ SI_INTERRUPT(PMATCH_ISR, PMATCH_IRQn)
 ///////////////////////////////////////////////////////////////////////////////
 // Driver Function
 ///////////////////////////////////////////////////////////////////////////////
+
 void FunctionGenerator_main(void)
 {
-	  uint8_t i;
-	  uint8_t x=0;
-	  uint8_t y=0;
-	  uint8_t j;
-	  char text[16];
-	// char xdata timer[16];
-	 unsigned char inputcharacter;
   //drawSplash();
-
+	uint8_t i;
+	uint8_t x=0;
+	uint8_t y=0;
+	uint8_t j;
+	char text[16];
+	unsigned char inputcharacter;       // Used to store character from UART
   //DISP_ClearAll();
  // drawScreenStaticSprites();
 
-  /*while(1)
+  while(1)
   {
-    processInput(getWaitJoystick());
-    drawScreen();
-    synchFrame();
-  }*/
+    //processInput(getWaitJoystick());
+    //drawScreen();
+    //synchFrame();
 
-	 while(1){
-	//char **timer = malloc(sizeof(char *) * 27);
-
-	RETARGET_PRINTF ("\nEnter character: ");
-	       inputcharacter = getchar();
-	       RETARGET_PRINTF ("\nCharacter entered: %c", inputcharacter);
-	       RETARGET_PRINTF ("\n     Value in Hex: %bx", inputcharacter);
-	       sprintf(text,"%c",inputcharacter);
-	       drawScreenText(text,0);
-
-	if(getWaitJoystick()==JOYSTICK_S)
-	{
-		y=y+8;
-
-	}
+    RETARGET_PRINTF ("\nEnter character: ");
+    inputcharacter = getchar();
+    RETARGET_PRINTF ("\nCharacter entered: %c", inputcharacter);
+    RETARGET_PRINTF ("\n     Value in Hex: %bx", inputcharacter);
+    sprintf(text,"%c",inputcharacter);
+    drawScreenText(text,0);
 
 
-}
+  }
 }

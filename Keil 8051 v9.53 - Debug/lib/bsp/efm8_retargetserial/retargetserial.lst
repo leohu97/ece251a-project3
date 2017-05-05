@@ -1,4 +1,4 @@
-C51 COMPILER V9.53.0.0   RETARGETSERIAL                                                    05/02/2017 23:38:58 PAGE 1   
+C51 COMPILER V9.53.0.0   RETARGETSERIAL                                                    05/05/2017 17:20:15 PAGE 1   
 
 
 C51 COMPILER V9.53.0.0, COMPILATION OF MODULE RETARGETSERIAL
@@ -63,7 +63,7 @@ line level    source
   39   2        }
   40   1        while (!TI);
   41   1        TI = 0;
-C51 COMPILER V9.53.0.0   RETARGETSERIAL                                                    05/02/2017 23:38:58 PAGE 2   
+C51 COMPILER V9.53.0.0   RETARGETSERIAL                                                    05/05/2017 17:20:15 PAGE 2   
 
   42   1        return (SBUF = c);
   43   1      }
