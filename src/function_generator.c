@@ -57,6 +57,8 @@
 #include "nav_right.h"
 #include "waveform_tables.h"
 #include "retargetserial.h"
+#include <string.h>
+#include <stdlib.h>
 
 ///////////////////////////////////////////////////////////////////////////////
 // Globals
@@ -311,7 +313,17 @@ static void drawScreenText(SI_VARIABLE_SEGMENT_POINTER(str, char, RENDER_STR_SEG
     DISP_WriteLine(rowNum + i, Line);
   }
 }
+static void drawScreenText1(SI_VARIABLE_SEGMENT_POINTER(str, char, RENDER_STR_SEG), uint8_t rowNum, uint8_t colNum)
+{
+  uint8_t i;
 
+  for (i = 0; i < FONT_HEIGHT; i++)
+  {
+    RENDER_ClrLine(Line);
+    RENDER_StrLine(Line, colNum, i, str);
+    DISP_WriteLine(rowNum + i, Line);
+  }
+}
 //-----------------------------------------------------------------------------
 // drawScreenSprite
 //-----------------------------------------------------------------------------
@@ -517,8 +529,14 @@ void FunctionGenerator_main(void)
 	uint8_t x=0;
 	uint8_t y=0;
 	uint8_t j;
-	char text[16];
-	unsigned char inputcharacter;       // Used to store character from UART
+	uint8_t k;
+	char xdata text1[17];
+	char xdata input1[16][17];
+	//char xdata input2[128];
+	//char xdata input2[16];
+	unsigned char inputchar;      // Used to store character from UART
+	text1[16]=0;
+	//inputchar[1]=0;
   //DISP_ClearAll();
  // drawScreenStaticSprites();
 
@@ -527,13 +545,30 @@ void FunctionGenerator_main(void)
     //processInput(getWaitJoystick());
     //drawScreen();
     //synchFrame();
+	  for(i=0;i<16;i++)
+	  {
+		  for(j=0;j<16;j++)
+		  {
+			  input1[i][j]=NULL;
+			  input1[i][16]=0;
+		  }
+		  sprintf(text1,"");
+		  for(j=0;j<16;j++)
+		  {
+		  //RETARGET_PRINTF ("\nEnter character: \n");
+		  inputchar = getchar();
+		  //RETARGET_PRINTF ("\nCharacter entered: %c", inputcharacter);
+		  //RETARGET_PRINTF ("\n     Value in Hex: %bx", inputcharacter);
+		  input1[i][j]=inputchar;
+		  //strcat(input2,input1[i][j]);
+		  //sprintf(text1,"%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c%c",input1[i][0],input1[i][1],input1[i][2],input1[i][3],input1[i][4],input1[i][5],input1[i][6],input1[i][7],input1[i][8],input1[i][9],input1[i][10],input1[i][11],input1[i][12],input1[i][13],input1[i][14],input1[i][15]);
+		  sprintf(text1,"%s",input1[i]);
+		  drawScreenText1(text1,8*i,0);
+		  }
+		  RETARGET_PRINTF ("\n");
 
-    RETARGET_PRINTF ("\nEnter character: ");
-    inputcharacter = getchar();
-    RETARGET_PRINTF ("\nCharacter entered: %c", inputcharacter);
-    RETARGET_PRINTF ("\n     Value in Hex: %bx", inputcharacter);
-    sprintf(text,"%c",inputcharacter);
-    drawScreenText(text,0);
+	  }
+
 
 
   }
