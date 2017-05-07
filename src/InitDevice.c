@@ -204,6 +204,26 @@ extern void PORTS_1_enter_DefaultMode_from_RESET(void) {
 	// [P1SKIP - Port 1 Skip]$
 
 	// $[P1MASK - Port 1 Mask]
+	/***********************************************************************
+	 - P1.0 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.1 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.2 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.3 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.4 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.5 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.6 pin logic value is ignored and will not cause a port mismatch
+	 event
+	 - P1.7 pin logic value is compared to P1MAT.7
+	 ***********************************************************************/
+	P1MASK = P1MASK_B0__IGNORED | P1MASK_B1__IGNORED | P1MASK_B2__IGNORED
+			| P1MASK_B3__IGNORED | P1MASK_B4__IGNORED | P1MASK_B5__IGNORED
+			| P1MASK_B6__IGNORED | P1MASK_B7__COMPARED;
 	// [P1MASK - Port 1 Mask]$
 
 	// $[P1MAT - Port 1 Match]

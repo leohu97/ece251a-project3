@@ -61,11 +61,11 @@
 /////////////////////////////////////////////////////////////////////////////
 
 #include "bsp.h"
-#include "retargetserial.h"
 #include "InitDevice.h"
 #include "disp.h"
-#include "render.h"
 #include "function_generator.h"
+#include "retargetserial.h"
+
 
 SI_SBIT (DISP_EN, SFR_P3, 4);          // Display Enable
 #define DISP_BC_DRIVEN   0             // 0 = Board Controller drives display
@@ -81,26 +81,21 @@ SI_SBIT (BC_EN, SFR_P2, 2);            // Board Controller Enable
 // --------------------------------------------------------------------------
 int main(void)
 {
-	//char text[16];
-	//char Line1[16];
-	//int i;
-	//unsigned char inputcharacter;       // Used to store character from UART    enter_DefaultMode_from_RESET();
-
-    // Enable all interrupts
-    IE_EA = 1;
-    BC_EN = BC_CONNECTED;               // Board controller connected to EFM8
-                                        // UART pins
-
-    SCON0_TI = 1;                       // This STDIO library requires TI to
-                                        // be set for prints to occur
-
-    DISP_Init();
-    FunctionGenerator_main();
-
-    while (1)
-    {
 
 
+  enter_DefaultMode_from_RESET();
 
-    }
+  // Enable all interrupts
+  IE_EA = 1;
+
+  DISP_Init();
+
+  BC_EN = BC_CONNECTED;               // Board controller connected to EFM8
+                                         // UART pins
+
+  SCON0_TI = 1;                       // This STDIO library requires TI to
+                                         // be set for prints to occur
+  FunctionGenerator_main();
+     while (1);
+
 }
